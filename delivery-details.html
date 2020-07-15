@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>blue mountain</title>
+	<!-- style -->
+	<link href="css/style.min.css" rel="stylesheet">
+	<!-- google fontst -->
+	<link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="container-fluid top-header">
+				<div class="item nav-mobile">
+					<ul class="nav">
+						<li>
+							<a href="#">
+								All Products
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Payments & Delivery
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="item">
+					<div class="logo">
+						<a href="#">
+							<img src="img/logo.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<ul class="ul-basket">
+						<li>
+							<a href="#">
+								<i class="user"></i>
+								<span>
+									Welcome,
+									<b>
+										John Doe!
+									</b>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="basket">
+									<span>3</span>
+								</i>
+								<span>
+									My Cart
+									<b>
+										$260.00
+									</b>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<!-- mobile menu -->
+					<div class="mobile-menu">
+						<div></div><div></div><div></div>
+					</div>
+				</div>
+			</div>
+			<div class="block-cover">
+				<h1>
+					Shopping Cart
+				</h1>
+				<div class="bread-cover">
+					<span>
+						<a href="#">
+							Home
+						</a>
+					</span>
+					<span>
+						<span>
+							Contact Us
+						</span>
+					</span>
+				</div>
+			</div>
+		</header>
+		<section class="section-cart">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="address-block">
+							<div class="item">
+								<h3>
+									Main Warehouse (Wilbur)
+								</h3>
+								<h4>
+									Ukraine
+								</h4>
+								<div class="address-list">
+									<div class="list">
+										<div>
+											63 East Illinois St.
+										</div>
+										<div>
+											Great Falls, MT 59404
+										</div>
+									</div>
+									<div class="list">
+										<div>
+											<a href="#">
+												some@gmail.com
+											</a>
+										</div>
+										<div>
+											<a href="#">
+												+(876) 978 - 464
+											</a>
+										</div>
+									</div>
+								</div>
+								<div class="option-link">
+									<a href="#">
+										<i class="fal fa-pencil"></i>
+									</a>
+									<a href="#">
+										<i class="fal fa-trash"></i>
+									</a>
+								</div>
+							</div>
+							<div class="item add-address">
+								<a href="#" data-modal="add-address"></a>
+								<i class="marker-add"></i>
+								<span>
+									Add new address
+								</span>
+							</div>
+						</div>
+						<div class="block-destination">
+							<span>
+								<i class="fal fa-truck"></i>
+								Destination: <b>100 mi</b>
+							</span>
+							<span>
+								<b>$60.00</b>
+							</span>
+						</div>
+						<label>
+							<span class="title">
+								Do we need additional instructions to find this address?
+							</span>
+							<textarea></textarea>
+						</label>
+					</div>
+					<div class="col-lg-4">
+						<div class="cart-total">
+							<h4>
+								Your order
+							</h4>
+							<hr>
+							<ul>
+								<li>
+									<span>
+										Some product title x 5
+									</span>
+									<span>
+										$50.00
+									</span>
+								</li>
+								<li>
+									<span>
+										Some product title x 5
+									</span>
+									<span>
+										$50.00
+									</span>
+								</li>
+								<li>
+									<span>
+										Some product title x 5
+									</span>
+									<span>
+										$50.00
+									</span>
+								</li>
+								<li>
+									<span>
+										Some product title x 5
+									</span>
+									<span>
+										$50.00
+									</span>
+								</li>
+							</ul>
+							<hr>
+							<ul>
+								<li>
+									<span>
+										Subtotal
+									</span>
+									<span>
+										$255.00
+									</span>
+								</li>
+								<li>
+									<span>
+										Delivery: <b>100 mi</b>
+									</span>
+									<span>
+										$255.00
+									</span>
+								</li>
+							</ul>
+							<hr>
+							<div class="total">
+								<span>
+									Total
+								</span>
+								<span>
+									$200.00
+								</span>
+							</div>
+							<div class="link-page">
+								<a href="#">
+									Place Order
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<div class="container-fluid">
+			<ul>
+				<li>
+					<a href="#">
+						Terms & Conditions
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Privacy Policy
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Contact Us
+					</a>
+				</li>
+			</ul>
+			<div class="copyright">
+				Copyright 2020 Blue Mountain Hay LLC
+			</div>
+		</div>
+	</footer>
+	<!-- modal window -->
+	<div class="modal-window" data-modal="add-address">
+		<div class="window">
+			<div class="close"></div>
+			<h2>
+				Address Information
+			</h2>
+			<form action="#" class="valid-form">
+				<div class="two-label">
+					<label>
+						<span class="title">
+							Address name<sup>*</sup>
+						</span>
+						<input type="text"
+						data-valid>
+					</label>
+					<label>
+						<span class="title">
+							Country<sup>*</sup>
+						</span>
+						<select class="select"
+						data-valid>
+							<option>
+								Select country
+							</option>
+							<option>
+								Ukraine
+							</option>
+							<option>
+								Deutschland
+							</option>
+							<option>
+								Bilorusia
+							</option>
+						</select>
+					</label>
+				</div>
+				<div class="two-label">
+					<label>
+						<span class="title">
+							Street Address<sup>*</sup>
+						</span>
+						<input type="text"
+						data-valid>
+					</label>
+					<label>
+						<span class="title">
+							Some apartment
+						</span>
+						<input type="text">
+					</label>
+				</div>
+				<div class="two-label">
+					<label>
+						<span class="title">
+							Town / City<sup>*</sup>
+						</span>
+						<input type="text"
+						data-valid>
+					</label>
+					<label>
+						<span class="title">
+							State / County<sup>*</sup>
+						</span>
+						<input type="text"
+						data-valid>
+					</label>
+				</div>
+				<label>
+					<span class="title">
+						Postcode / ZIP<sup>*</sup>
+					</span>
+					<input type="text"
+					data-valid
+					data-test="number">
+				</label>
+				<div class="two-label">
+					<label>
+						<span class="title">
+							Email<sup>*</sup>
+						</span>
+						<input type="email"
+						data-valid
+						data-test="email">
+					</label>
+					<label>
+						<span class="title">
+							Phone number<sup>*</sup>
+						</span>
+						<input type="tel"
+						data-valid
+						data-test="number">
+					</label>
+				</div>
+				<div class="submit">
+					<input type="submit" value="Send information">
+				</div>
+			</form>
+		</div>
+	</div>
+	<!-- modal window -->
+	<!-- script -->
+		<script src="js/jquery/jquery-3.4.1.min.js"></script>
+		<!-- functions -->
+		<script src="js/function.js"></script>
+		<!-- owl carousel -->
+		<script src="js/plugins/owl.carousel.js"></script>
+		<script src="js/plugins/owl.carousel-include.js"></script>
+		<!-- valid-form -->
+		<script src="js/plugins/valid-form.js"></script>
+		<!-- jquery-ui -->
+		<script src="js/plugins/jquery-ui.js"></script>
+		<script src="js/plugins/jquery-ui-iclude.js"></script>
+	<!-- script -->
+</body>
+</html>

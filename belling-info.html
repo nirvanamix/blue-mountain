@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>blue mountain</title>
+	<!-- style -->
+	<link href="css/style.min.css" rel="stylesheet">
+	<!-- google fontst -->
+	<link href="https://fonts.googleapis.com/css?family=Barlow:300,400,500,600,700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+	<div class="wrapper">
+		<header>
+			<div class="container-fluid top-header">
+				<div class="item nav-mobile">
+					<ul class="nav">
+						<li>
+							<a href="#">
+								All Products
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								Payments & Delivery
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="item">
+					<div class="logo">
+						<a href="#">
+							<img src="img/logo.png" alt="">
+						</a>
+					</div>
+				</div>
+				<div class="item">
+					<ul class="ul-basket">
+						<li>
+							<a href="#">
+								<i class="user"></i>
+								<span>
+									Welcome,
+									<b>
+										John Doe!
+									</b>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#">
+								<i class="basket">
+									<span>3</span>
+								</i>
+								<span>
+									My Cart
+									<b>
+										$260.00
+									</b>
+								</span>
+							</a>
+						</li>
+					</ul>
+					<!-- mobile menu -->
+					<div class="mobile-menu">
+						<div></div><div></div><div></div>
+					</div>
+				</div>
+			</div>
+			<div class="block-cover">
+				<h1>
+					Shopping Cart
+				</h1>
+				<div class="bread-cover">
+					<span>
+						<a href="#">
+							Home
+						</a>
+					</span>
+					<span>
+						<span>
+							Contact Us
+						</span>
+					</span>
+				</div>
+			</div>
+		</header>
+		<section class="section-cart">
+			<div class="container-fluid">
+				<form action="#" class="valid-form">
+					<div class="row">
+						<div class="col-lg-8">
+							<div class="title-check">
+								<h3>
+									Billing Details
+								</h3>
+								<label class="label-checkbox">
+									<input type="checkbox">
+									<span class="check-span">
+										Same as delivery address
+									</span>
+								</label>
+							</div>
+							<label>
+								<span class="title">
+									Country<sup>*</sup>
+								</span>
+								<select class="select"
+								data-valid>
+									<option>
+										Select country
+									</option>
+									<option>
+										Ukraine
+									</option>
+									<option>
+										Deutschland
+									</option>
+									<option>
+										Bilorusia
+									</option>
+								</select>
+							</label>
+							<div class="two-label">
+								<label>
+									<span class="title">
+										Street Address<sup>*</sup>
+									</span>
+									<input type="text"
+									data-valid>
+								</label>
+								<label>
+									<span class="title">
+										Some apartment
+									</span>
+									<input type="text">
+								</label>
+							</div>
+							<div class="two-label">
+								<label>
+									<span class="title">
+										Town / City<sup>*</sup>
+									</span>
+									<input type="text"
+									data-valid>
+								</label>
+								<label>
+									<span class="title">
+										State / County<sup>*</sup>
+									</span>
+									<input type="text"
+									data-valid>
+								</label>
+							</div>
+							<label>
+								<span class="title">
+									Postcode / ZIP<sup>*</sup>
+								</span>
+								<input type="text"
+								data-valid
+								data-test="number">
+							</label>
+							<h3>
+								Payment Method
+							</h3>
+							<div class="payment-select">
+								<div class="item active">
+									<div class="top">
+										<span>
+											Credit card
+										</span>
+										<span>
+											<img src="img/cards.png" srcset="img/cards@2x.png 2x" width="170" alt="">
+										</span>
+									</div>
+									<div class="bottom">
+										<label data-no-valid>
+											<span class="title">
+												Name on Card<sup>*</sup>
+											</span>
+											<input type="text"
+											data-valid>
+										</label>
+										<div class="card-wr">
+											<label data-no-valid>
+												<span class="title">
+													Credit Card *<sup>*</sup>
+												</span>
+												<input class="mask-card" type="text"
+												placeholder="X X X X     X X X X     X X X X     X X X X" 
+												data-valid
+												data-test="number">
+												<i class="fal fa-credit-card"></i>
+											</label>
+											<label data-no-valid>
+												<input class="mask-mm-yy" type="text"
+												placeholder="MM / YY" 
+												data-valid
+												data-test="number">
+											</label>
+											<label data-no-valid>
+												<input type="password"
+												placeholder="CVC" 
+												data-valid
+												data-test="number">
+											</label>
+										</div>
+									</div>
+								</div>
+								<div class="item">
+									<div class="top">
+										<span>
+											PayPal
+										</span>
+										<span>
+											<img src="img/pay-pal.png" srcset="img/pay-pal@2x.png 2x" width="92" alt="">
+										</span>
+									</div>
+									<div class="bottom">
+										<label data-no-valid>
+											<span class="title">
+												Email<sup>*</sup>
+											</span>
+											<input type="email"
+												data-valid
+												data-test="email">
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="cart-total">
+								<h4>
+									Your order
+								</h4>
+								<hr>
+								<ul>
+									<li>
+										<span>
+											Some product title x 5
+										</span>
+										<span>
+											$50.00
+										</span>
+									</li>
+									<li>
+										<span>
+											Some product title x 5
+										</span>
+										<span>
+											$50.00
+										</span>
+									</li>
+									<li>
+										<span>
+											Some product title x 5
+										</span>
+										<span>
+											$50.00
+										</span>
+									</li>
+									<li>
+										<span>
+											Some product title x 5
+										</span>
+										<span>
+											$50.00
+										</span>
+									</li>
+								</ul>
+								<hr>
+								<ul>
+									<li>
+										<span>
+											Subtotal
+										</span>
+										<span>
+											$255.00
+										</span>
+									</li>
+									<li>
+										<span>
+											Delivery: <b>100 mi</b>
+										</span>
+										<span>
+											$255.00
+										</span>
+									</li>
+								</ul>
+								<hr>
+								<div class="total">
+									<span>
+										Total
+									</span>
+									<span>
+										$200.00
+									</span>
+								</div>
+								<div class="submit">
+									<input type="submit" value="Submit a Payment">
+								</div>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</section>
+	</div>
+	<footer>
+		<div class="container-fluid">
+			<ul>
+				<li>
+					<a href="#">
+						Terms & Conditions
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Privacy Policy
+					</a>
+				</li>
+				<li>
+					<a href="#">
+						Contact Us
+					</a>
+				</li>
+			</ul>
+			<div class="copyright">
+				Copyright 2020 Blue Mountain Hay LLC
+			</div>
+		</div>
+	</footer>
+	<!-- script -->
+		<script src="js/jquery/jquery-3.4.1.min.js"></script>
+		<!-- functions -->
+		<script src="js/function.js"></script>
+		<!-- owl carousel -->
+		<script src="js/plugins/owl.carousel.js"></script>
+		<script src="js/plugins/owl.carousel-include.js"></script>
+		<!-- valid-form -->
+		<script src="js/plugins/valid-form.js"></script>
+		<!-- jquery-ui -->
+		<script src="js/plugins/jquery-ui.js"></script>
+		<script src="js/plugins/jquery-ui-iclude.js"></script>
+	<!-- script -->
+</body>
+</html>
